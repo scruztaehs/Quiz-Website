@@ -1,0 +1,54 @@
+body {
+  font-family: Arial, sans-serif;
+  background: linear-gradient(to right, #3498db, #2ecc71), url('https://i.imgur.com/jjpOsNG.png') center/cover no-repeat; /* Gradient background and image */
+  color: green; /* Text color for better contrast */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.container {
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.9); /* Semi-transparent white background */
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Rest of the styles remain unchanged */
+
+
+h1 {
+  color: #3498db;
+}
+
+.question {
+  margin-bottom: 20px;
+}
+
+#submitBtn, #restartBtn {
+  background-color: #3498db;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+#result {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.result-image {
+  width: 200px;
+  height: 200px;
+  margin: 10px;
+}
+
+#restartBtn {
+  margin-top: 20px;
+}
