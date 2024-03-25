@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Quiz Website</title>
+  <link rel="stylesheet" href="styles.css"> <!-- Added a separate CSS file -->
+</head>
+<body>
+  <div class="container">
+    <h1>Quiz Title</h1>
+
+    <div class="question">
+      <p>Question 1: Do you like the night (yes or no)?</p>
+      <input type="text" id="answer1">
+    </div>
+
+    <div class="question">
+      <p>Question 2: How fast can you run between 1 and 10:</p>
+      <input type="number" id="answer2" min="1" max="10">
+    </div>
+
+    <button id="submitBtn">Submit</button>
+    <button id="restartBtn">Restart</button>
+
+    <div id="result"></div>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script> <!-- Added jQuery -->
+  <script src="script.js"></script>
+</body>
+</html>
